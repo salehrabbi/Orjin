@@ -153,6 +153,7 @@ body {
   border-radius: 0px 0px 30px 30px;
   -webkit-box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
           box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+  min-height: 250px !important;
 }
 .sign-up-form .check-option .dropdown-menu .inner {
   padding-top: 16px;
@@ -224,7 +225,11 @@ body {
   top: -30px;
 }
 .footer-bottom .copy-right img {
-  max-width: 100%;
+  width: 191px;
   float: left;
   margin-right: 50px;
+}
+.footer-bottom .copy-right p {
+  width: calc(100% - 241px);
+  float: left;
 }
