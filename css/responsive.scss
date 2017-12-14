@@ -87,6 +87,12 @@ $f: 'Gotham Narrow';
     .sign-up-form .profession-check .check-box .check {
         padding: 16px 35px;
     }
+    #paitent-login-content .head-title h3 {
+        font: 20px "Gotham Narrow";
+    }
+    #paitent-login-content .head-title h2 {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width:575px) {
@@ -111,8 +117,8 @@ $f: 'Gotham Narrow';
     .sign-up-form .title {
         padding-top: 35px;
     }
-    .check-option{
-        label{
+    .check-option {
+        label {
             display: block;
         }
     }
@@ -139,6 +145,9 @@ $f: 'Gotham Narrow';
     }
     .footer-menu {
         padding: 40px 0;
+    }
+    #paitent-login-content .head-title h2 {
+        font: 40px "Gotham Narrow";
     }
 }
 

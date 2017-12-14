@@ -102,6 +102,14 @@
   .sign-up-form .profession-check .check-box .check {
     padding: 16px 35px;
   }
+
+  #paitent-login-content .head-title h3 {
+    font: 20px "Gotham Narrow";
+  }
+
+  #paitent-login-content .head-title h2 {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 575px) {
   .header-top .top-menu li a {
@@ -163,6 +171,10 @@
 
   .footer-menu {
     padding: 40px 0;
+  }
+
+  #paitent-login-content .head-title h2 {
+    font: 40px "Gotham Narrow";
   }
 }
 @media (max-width: 400px) {

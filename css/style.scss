@@ -12,9 +12,11 @@ a:hover {
 .padding {
     padding: 0;
 }
-body{
+
+body {
     font-family: $f;
 }
+
 
 /*=================================== header ==========================*/
 
@@ -68,7 +70,10 @@ body{
         }
     }
 }
+
+
 /*=================================== main content ==========================*/
+
 .main-content {
     background: #ffc52e;
     padding-top: 70px;
@@ -85,7 +90,10 @@ body{
         margin-bottom: 10px;
     }
 }
+
+
 /*=================================== form ==========================*/
+
 .sign-up-form {
     max-width: 722px;
     margin: 0 auto;
@@ -169,8 +177,8 @@ body{
             box-shadow: none;
         }
     }
-    .license{
-        input{
+    .license {
+        input {
             background: #fff;
             border: none;
             height: 50px;
@@ -181,7 +189,7 @@ body{
             font: 16px $f;
             box-shadow: 0 27px 24px rgba(0, 0, 0, .2);
         }
-        .submit{
+        .submit {
             width: 180px;
             margin-top: 55px;
             text-transform: uppercase;
@@ -189,55 +197,92 @@ body{
         }
     }
 }
+
+
 /*=================================== footer ==========================*/
-.main-footer{
+
+.main-footer {
     padding-bottom: 45px;
-    .conter-wraper{
+    .conter-wraper {
         display: flex;
         align-items: flex-end;
     }
 }
-.footer-menu{
+
+.footer-menu {
     padding: 110px 0;
-    ul{
+    ul {
         padding: 0;
         margin: 0;
         list-style: none;
         text-align: center;
-        li{
+        li {
             display: inline-block;
             margin: 5px (45px/2);
-            a{
+            a {
                 text-transform: uppercase;
                 color: #4d4d4d;
                 font-size: 16px;
-                &:hover{
+                &:hover {
                     text-decoration: underline;
                 }
             }
         }
     }
 }
-.footer-bottom{
-    .copy-right{
+
+.footer-bottom {
+    .copy-right {
         top: -30px;
-        img{
+        img {
             width: 191px;
             float: left;
             margin-right: 50px;
         }
-        p{
+        p {
             width: calc(100% - 241px);
             float: left;
-            
         }
     }
-    .patner{
+    .patner {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        img{
+        img {
             padding: 0 15px;
         }
     }
+}
+
+
+/*=================================== paitent login page ==========================*/
+
+#paitent-login-content {
+    .head-title {
+        h2 {
+            margin-bottom: 46px;
+        }
+        h3 {
+            font: 29px $f;
+            color: #007bc3;
+            margin: 0;
+            margin-bottom: 25px;
+        }
+    }
+    .sign-up-form {
+        max-width: 619px;
+        .title {
+            padding-top: 12px;
+            a {
+                color: #003d79;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .text {
+            margin-bottom: 20px;
+        }
+    }
+    
 }

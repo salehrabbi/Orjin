@@ -248,3 +248,29 @@ body {
 .footer-bottom .patner img {
   padding: 0 15px;
 }
+
+/*=================================== paitent login page ==========================*/
+#paitent-login-content .head-title h2 {
+  margin-bottom: 46px;
+}
+#paitent-login-content .head-title h3 {
+  font: 29px "Gotham Narrow";
+  color: #007bc3;
+  margin: 0;
+  margin-bottom: 25px;
+}
+#paitent-login-content .sign-up-form {
+  max-width: 619px;
+}
+#paitent-login-content .sign-up-form .title {
+  padding-top: 12px;
+}
+#paitent-login-content .sign-up-form .title a {
+  color: #003d79;
+}
+#paitent-login-content .sign-up-form .title a:hover {
+  text-decoration: underline;
+}
+#paitent-login-content .sign-up-form .text {
+  margin-bottom: 20px;
+}
