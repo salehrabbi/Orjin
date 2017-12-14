@@ -111,8 +111,14 @@ $f: 'Gotham Narrow';
     .sign-up-form .title {
         padding-top: 35px;
     }
+    .check-option{
+        label{
+            display: block;
+        }
+    }
     .sign-up-form .check-option .select-bg {
-        width: 290px;
+        width: 100%;
+        min-width: auto;
     }
     .sign-up-form .license .submit {
         margin-top: 35px;
