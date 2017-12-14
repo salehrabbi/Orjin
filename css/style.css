@@ -73,18 +73,20 @@ a:hover {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #003c79;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 
 .sign-up-form {
   max-width: 722px;
   margin: 0 auto;
+  margin-bottom: 300px;
 }
 .sign-up-form .title {
   font: 700 16px "Gotham Narrow";
   color: #003d79;
   margin-bottom: 10px;
   margin-left: 20px;
+  margin-top: 50px;
 }
 .sign-up-form .profession-check {
   width: 100%;
@@ -111,4 +113,49 @@ a:hover {
 }
 .sign-up-form .profession-check .check-box .active {
   background: #cfdeee;
+}
+.sign-up-form .check-option .select-bg {
+  width: 325px;
+  background: #fff;
+  font: 700 18px "Gotham Narrow";
+  color: #003c79;
+  height: 46px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  position: relative;
+  z-index: 99999;
+  -webkit-box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+  outline: none !important;
+}
+.sign-up-form .check-option .select-bg .caret {
+  border: none;
+}
+.sign-up-form .check-option .select-bg .caret:before {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: -13px;
+  right: 17px;
+  font-size: 30px;
+}
+.sign-up-form .check-option .dropdown-menu {
+  top: 50%;
+  border: none;
+  border-radius: 0px 0px 30px 30px;
+  -webkit-box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+}
+.sign-up-form .check-option .dropdown-menu .inner {
+  padding-top: 16px;
+}
+.sign-up-form .check-option .dropdown-menu .inner a {
+  color: #003c79;
+  font: 18px "Gotham Narrow";
+  padding: 3px 30px;
+}
+.sign-up-form .bootstrap-select.open .select-bg {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
