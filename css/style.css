@@ -56,3 +56,17 @@ a:hover {
 .main-menu .navbar-default .navbar-nav > li > a:hover {
   opacity: .8;
 }
+
+.main-content {
+  background: #ffc52e;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+.head-title h2 {
+  margin: 0;
+  font: 85px/99px "Gotham Narrow";
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #003c79;
+}
