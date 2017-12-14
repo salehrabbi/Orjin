@@ -34,3 +34,25 @@ a:hover {
 .header-top .top-menu li .active {
   background: #bfd0e2;
 }
+
+/*=================================== main menu ==========================*/
+.main-menu {
+  background: #e6f1fc;
+  padding: 17px 0;
+}
+.main-menu .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin: 0;
+}
+.main-menu .navbar-default .navbar-nav {
+  margin-top: 26px;
+}
+.main-menu .navbar-default .navbar-nav > li > a {
+  color: #1e3b6f;
+  font: 500 16px "Gotham Narrow";
+  text-transform: uppercase;
+}
+.main-menu .navbar-default .navbar-nav > li > a:hover {
+  opacity: .8;
+}

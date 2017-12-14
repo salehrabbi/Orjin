@@ -1,36 +1,63 @@
 $f: 'Gotham Narrow';
-@media (min-width:1900px){
-    .container{
+@media (min-width:1900px) {
+    .container {
         width: 1700px;
     }
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
+
+
 /*=================================== header ==========================*/
 
-.header-top{
+.header-top {
     background: #cfdeee;
-    .top-menu{
+    .top-menu {
         list-style: none;
         padding: 0;
         margin: 0;
         float: right;
-        li{
+        li {
             float: left;
-            a{
+            a {
                 text-transform: uppercase;
                 font: 500 16px $f;
                 display: block;
                 padding: 7px 50px;
                 color: #1e3b6f;
                 border-left: 1px solid #bfd0e2;
-                &:hover{
+                &:hover {
                     background: #bfd0e2;
                 }
             }
-            .active{
+            .active {
                 background: #bfd0e2;
+            }
+        }
+    }
+}
+
+
+/*=================================== main menu ==========================*/
+
+.main-menu {
+    background: #e6f1fc;
+    padding: 17px 0;
+    .navbar-default {
+        background-color: transparent;
+        border-color: transparent;
+        margin: 0;
+        .navbar-nav {
+            margin-top: 26px;
+            >li>a {
+                color: #1e3b6f;
+                font: 500 16px $f;
+                text-transform: uppercase;
+                &:hover{
+                    opacity: .8;
+                }
             }
         }
     }
