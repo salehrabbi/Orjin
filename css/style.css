@@ -1,0 +1,36 @@
+@media (min-width: 1900px) {
+  .container {
+    width: 1700px;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*=================================== header ==========================*/
+.header-top {
+  background: #cfdeee;
+}
+.header-top .top-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.header-top .top-menu li {
+  float: left;
+}
+.header-top .top-menu li a {
+  text-transform: uppercase;
+  font: 500 16px "Gotham Narrow";
+  display: block;
+  padding: 7px 50px;
+  color: #1e3b6f;
+  border-left: 1px solid #bfd0e2;
+}
+.header-top .top-menu li a:hover {
+  background: #bfd0e2;
+}
+.header-top .top-menu li .active {
+  background: #bfd0e2;
+}
