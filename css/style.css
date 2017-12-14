@@ -11,6 +11,10 @@ a:hover {
   padding: 0;
 }
 
+body {
+  font-family: "Gotham Narrow";
+}
+
 /*=================================== header ==========================*/
 .header-top {
   background: #cfdeee;
@@ -79,14 +83,15 @@ a:hover {
 .sign-up-form {
   max-width: 722px;
   margin: 0 auto;
-  margin-bottom: 300px;
 }
 .sign-up-form .title {
   font: 700 16px "Gotham Narrow";
   color: #003d79;
   margin-bottom: 10px;
   margin-left: 20px;
-  margin-top: 50px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
 }
 .sign-up-form .profession-check {
   width: 100%;
@@ -158,4 +163,22 @@ a:hover {
 .sign-up-form .bootstrap-select.open .select-bg {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+.sign-up-form .license input {
+  background: #fff;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  width: 100%;
+  padding: 10px 20px;
+  color: #003d79;
+  font: 16px "Gotham Narrow";
+  -webkit-box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2);
+}
+.sign-up-form .license .submit {
+  width: 180px;
+  margin-top: 55px;
+  text-transform: uppercase;
+  font: 700 18px "Gotham Narrow";
 }
